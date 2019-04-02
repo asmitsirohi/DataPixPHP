@@ -6,7 +6,7 @@ Data (text) to image processing php class
 * Works On True Colour Images
 * Images can be easily get damaged on any type of compression
 * Speed of encoding or decoding depends upon the data size
-* It generated linear strip of pixels with data encoded in it
+* It generated linear strip of pixels with data encoded in them
 * Stores 4 Characters In 1 Pixel
 
 You may convert small images into encoded pixels by reading them using file_get_contents("image.jpg") functions and pass them data to encode function of that class.  
