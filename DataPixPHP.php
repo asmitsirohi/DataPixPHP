@@ -9,7 +9,7 @@
 	* Works On True Colour Images
 	* Images can be easily get damaged on any type of compression
 	* Speed of encoding or decoding depends upon the data size
-	* It generated linear strip of pixels with data encoded in it
+	* It generates linear strip of pixels with data encoded in it
 */
 /*
 	* DataPixPHP Version 3
