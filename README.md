@@ -9,8 +9,9 @@ Data (text) to image processing php class
 * It generated linear strip of pixels with data encoded in them
 * Stores 4 Characters In 1 Pixel
 
-You may convert small images into encoded pixels by reading them using file_get_contents("image.jpg") functions and pass them data to encode function of that class.  
-Decoding also works the same but you need to write decoded data back to image file using file_put_contents("image.jpg",$decoded_data) function.
+> Note
+* You may convert small images into encoded pixels by reading them using file_get_contents("image.jpg") functions and pass them data to encode function of that class.  
+* Decoding also works the same but you need to write decoded data back to image file using file_put_contents("image.jpg",$decoded_data) function.
 
 ## Usage
 
