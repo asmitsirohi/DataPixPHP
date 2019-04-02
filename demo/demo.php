@@ -1,0 +1,20 @@
+<?php
+	include("DataPixPHP.php");
+	
+	////////////////////////////////////////////////////////////
+	// Encoding
+	$dataToEncode="Hello World!";
+	
+	$dataPixPHP=new DataPixPHP(); //Create object of a class
+	
+	$image=$dataPixPHP->encode($dataToEncode,'demo');
+	var_dump("File saved as: ".$image);
+	///////////////////////////////////////////////////////////
+	
+	
+	//////////////////////////////////////////////////////////
+	//Decoding
+	$data=$dataPixPHP->decode($image);
+	var_dump("Decoded Data From Image: ".$data);
+	//////////////////////////////////////////////////////////
+?>
