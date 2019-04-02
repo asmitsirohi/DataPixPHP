@@ -13,7 +13,6 @@
 */
 /*
 	* DataPixPHP Version 3
-	* Support All Text And Media Files
 	* Stores 4 Characters In 1 Pixel
 */
 class DataPixPHP {
